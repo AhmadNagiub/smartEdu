@@ -1,0 +1,620 @@
+/* start of Header 
+
+
+*/
+body
+{
+    font-family: 'Open Sans',sans-serif;
+}
+.navbar-light .navbar-nav .nav-link 
+{
+    color: white !important ; 
+}
+.bg-anything
+{
+    background-color: rgba(0,0,0,.55);
+}
+
+header
+{
+    background-image: url(../images/header/home.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.cent
+{
+    color: white;
+    width: 45%;
+   position: absolute;
+   top:  40%;
+   left: 30%;
+   background-color: rgba(0,0,0,.55);
+}
+.ad
+{
+   
+    height: 200px;
+    width: 250px;
+
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+.ad h3{
+    position: relative;
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    font-weight: 700;
+    font-size:60 px;
+}
+
+.ad h3::before
+{
+    content: "";
+    width: 2rem;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 48%;
+    right: 101%;
+   
+}
+
+
+
+
+/* End of Header */
+/* start of section */
+.second
+{
+    text-align: center;
+    margin-top: 40px;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.second .h3 
+{
+    position: absolute;
+  
+    font-weight: 900;
+
+
+    font-size: 2.5rem;
+    
+
+}
+.second h2
+{
+    font-weight: 900;
+    color: #f1f1f1;
+    font-size: 5rem;
+
+}
+/* End of section */
+/*Start of section*/
+.service
+{
+    background-image: url(../images/white-dots.jpg);
+    margin: 20px 0;
+
+}
+.mycontainer
+
+{
+    width: 95%;
+  margin: 5px auto;
+  padding: 30px 0px;
+}
+.conatains
+{
+
+    width: 33.33333%;
+    text-align: center;
+    padding: 2rem 15px ;
+    float: left;
+    position: relative;
+    margin: 5px 0;
+
+ 
+}
+
+.conatains .conatains-content
+{
+    margin: 20px 0;
+    background-color: white;
+    position: relative;
+    padding: 5px;
+    
+}
+.conatains .conatains-content h2
+{
+    margin: 5px 0;
+    padding: 5px;
+
+}
+.conatains .conatains-content p
+{
+    line-height: 1.5rem;
+}
+.conatains  i
+{
+    color: white;
+    background-color: black;
+    border: 2px solid #fff;
+    box-shadow: 0px 3px 20px rgba(0,0,0,.15);
+    font-size: 1.2rem;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 4;
+    
+}
+.clr
+{
+    clear: both;
+}
+/*End of section*/
+/* start of footer */
+.footer
+{
+    background-color: black;
+    height: 100vh;
+}
+hr{
+    background-color: blue ;
+    height: 3px;
+    width: 100;
+}
+
+footer h2
+{
+    color: white;
+
+}
+footer h3
+{
+    color: white;
+    
+}
+footer h4
+{
+    color: white;
+    
+}
+/* End of footer */
+
+
+/* start of contact us */
+
+
+
+.con-input
+{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.icon
+{
+    font-size: 40px;
+    color: turquoise;
+    margin: 1rem;
+}
+.df {
+    background-color: #f8eded;
+}
+/* End of contact us */
+/* Start of Registration*/
+
+/* Start of login*/
+.reg{
+    text-align: center;
+ 
+}
+.reg button
+{
+    background: none;
+    display: inline;
+    margin: 10px 10px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: all .8s;
+}
+.reg button:hover
+{
+   
+    background-color: #2ecc71;
+}
+
+.reg button a 
+{
+    text-decoration: none;
+    color: white;
+}
+.log
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #34495e;
+    position: relative; ;
+    height: 100vh;
+}
+.box
+{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    background-color: #191919;
+}
+
+.box h1 
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type = "text"] , .box input[type = "password"] , .box input[type = "number"]
+
+{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: all .8s;
+
+}
+
+.box input[type = "text"]:focus , .box input[type = "password"]:focus , .box input[type = "number"]:focus
+
+{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+
+.box button
+{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: all .8s;
+
+}
+.box button:hover
+{
+   
+    background-color: #2ecc71;
+}
+
+.box button a 
+{
+    text-decoration: none;
+    color: white;
+}
+/* End of login*/
+
+/* Start of signup*/
+.sign_up
+{
+    background-image: url(../images/about-sign/sign2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.sign_up button , .buton
+{
+    background: none;
+    display: block;
+  
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: all .8s;
+
+}
+.sign_up button:hover , .buton:hover
+{
+   
+    background-color: #2ecc71;
+}
+
+
+.sign_up h1
+{
+    color:#fff ;
+    margin-bottom: 40px;
+}
+.sign_up p 
+{
+    margin-bottom: 40px;
+    color:#fff ;
+}
+
+.inp
+{
+    width: 40%;
+    margin: 10px;
+    margin-right: 22px;
+    padding: 5px;
+
+    border-radius: 10px;
+    border: none;
+    background-color: #191919;
+    color: white;
+}
+.inp2
+{
+    width: 80%;
+    margin: 10px;
+    margin-right: 22px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #191919;
+    color: white;
+}
+.inp3
+{
+    width: 30%;
+  
+ 
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #191919;
+    color: white;
+}
+
+/* End of signup*/
+/* End of Registration*/
+
+/* Start of lessons*/
+.course
+{
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.course h2
+{
+    font-size: 5rem;
+    color: rgba(214, 109, 109, 0.6);
+}
+.course h3
+{
+    font-size: 3rem;
+    position: absolute;
+    color: red;
+
+}
+
+.course2
+{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.course3
+{
+    text-align: center;
+    width: 50%;
+    margin:10px auto;
+}
+h2
+{
+    position: relative;
+
+}
+.course3 h2::before
+{
+    content: " ";
+    width: 40%;
+    height: 4%;
+    position: absolute;
+    top: 95%;
+    left: 30%;
+    background-color: black;
+}
+
+.courses
+{
+    width: 50%;
+    display: flex;
+    margin: 20px 0px;
+    padding: 15px;
+}
+.courses .img1 ,.courses .img2 ,.courses .img3 ,.courses .img4 ,.courses .img5 ,.courses .img6  
+{
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+}
+.courses .img1{
+    background-image: url(../images/courses/webDevelopment.jpg);
+}
+.courses .img2
+{
+    background-image: url(../images/courses/webMaster.jpg);
+
+}
+.courses .img3
+{
+    background-image: url(../images/courses/Business\ &\ Accounting.jpg);
+
+}
+.courses .img4
+{
+    background-image: url(../images/courses/Science\ &\ Technology.jpg);
+
+}
+.courses .img5
+{
+    background-image: url(../images/courses/Health\ &\ Psychology.png);
+
+}
+.courses .img6
+{
+    background-image: url(../images/courses/android.jpg);
+
+}
+.courses .b
+{
+    background-color: #191919;
+    width: 60%;
+    padding: 0px 25px;
+    color: white;
+}
+
+.courses .b .butn 
+{
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 9%;
+    background: none;
+    color: #3498db;
+    transition: all 1s;
+}
+.courses .b .butn:hover
+{
+    border-radius: 0;
+    background-color: #34495e;
+}
+/* End   of lessons*/
+
+/* Start   of price*/
+#price 
+{
+    margin: 20px;
+}
+#price .side h2
+{
+    text-align: center;
+    margin: 10px;
+    color: #5f4040;
+  
+}
+#price .cost
+{
+    text-align: center;
+    background-color: rgba(194, 164, 164, 0.6);
+    padding: 20px;
+    font-size: 2rem;
+    overflow: hidden;
+    
+
+}
+#price .cost p
+{
+    position: relative;
+}
+@keyframes ahmed
+{
+    0%
+    {
+        top:-100px
+    }
+
+    100%
+    {
+        top:0;
+
+    }
+}
+#price .side:hover   .cost p
+{
+    animation-name: ahmed;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+#price .side:hover   .cost p sub
+{
+    animation-name: ahmed;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+#price .cost sup
+{
+   font-size: 1.5rem;
+
+}   
+#price .cost sub
+{
+   font-size: 1rem;
+
+}    
+#price .features
+{
+    padding: 15px;
+    text-align: center;
+    background-color: #f0eeee;
+
+}
+#price .features p
+{
+    text-align: center;
+    padding: 2px;
+}
+
+#price .features .butn 
+{
+    border: 2px solid #3498db;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 9%;
+    background: none;
+    color: #3498db;
+    transition: all 1s;
+    
+}
+
+#price .features .butn:hover
+{
+    border-radius: 0;
+    background-color: #34495e;
+}
+
+
+/* End   of price*/
